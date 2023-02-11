@@ -20,8 +20,8 @@ body{
 }
 
 img{
-    width: 8px;
-    height: 8px;
+    width: 15px;
+    height: 15px;
 
 }
 
@@ -31,18 +31,18 @@ img{
     align-items: center;
     border-radius: 100%;
     background-color: #253036;
-    width: 30px;
-    height: 30px;
-    margin-bottom: 17px;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 30px;
    
 }
 
 .container-one{
     display: flex;
     flex-direction: column;
-    padding: 17px;
-    width: 240px;
-    height: 250px;
+    padding: 30px;
+    width: 400px;
+    height: 412px;
     background-color: #212832;
     border-radius: 20px;
 }
@@ -52,16 +52,16 @@ img{
     margin-bottom: 17px;
     font-family: 'Overpass';
     font-weight: 700;
-    font-size: 15px;
+    font-size: 25px;
     
 
 }
 
 .rating-description {
-    font-size: 9px;
+    font-size: 14px;
     font-family: 'Overpass';
     font-weight: 400;
-    line-height: 14px;
+    line-height: 28px;
     color: #818791;
     margin-bottom: 17px;
 
@@ -77,51 +77,39 @@ img{
 
 }
 
-.number-background{
-    color: #7c858e;
-    font-size: 8px;
-    font-family: 'Overpass';
-    font-weight: 400;
-    background-color: #262f38;
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    padding-top: 2px;
 
-}
 
 
 .number{
     color: #7c858e;
-    font-size: 8px;
+    font-size: 15px;
     font-family: 'Overpass';
     font-weight: 400;
     background-color: #262f38;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    padding-top: 2px;
+    padding-top: 4px;
+    margin-bottom: 18px;
+
 
 }
 
 
 .number:hover{
     color: white;
-    font-size: 8px;
+    font-size: 15px;
     font-family: 'Overpass';
     font-weight: 400;
     background-color: #fc7613;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    padding-top: 4px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -137,8 +125,8 @@ img{
 
 button{
     border-radius: 20px;
-    height: 25px;
-    font-size: 9px;
+    height: 47px;
+    font-size: 17px;
     font-family: 'Overpass';
     font-weight: 400;
     letter-spacing: 1px;
@@ -151,8 +139,8 @@ button{
 
 button:hover{
     border-radius: 20px;
-    height: 25px;
-    font-size: 9px;
+    height: 47px;
+    font-size: 17px;
     font-family: 'Overpass';
     font-weight: 400;
     letter-spacing: 1px;
@@ -177,33 +165,38 @@ button:hover{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 17px;
-    width: 240px;
-    height: 250px;
+    padding: 30px;
+    width: 400px;
+    height: 412px;
     background-color: #212832;
     border-radius: 20px;
 
 }
 
 .phone{
-    width: 100px;
-    height: 65px;
+    width: 170px;
+    height: 110px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+
 }
 
 .description-selection{
-    font-size: 9px;
+    font-size: 15px;
     font-family: 'Overpass';
     font-weight: 700;
     margin: 17px 0px;
     color: #c37c52;
     background-color: #262f38;
     height: 30px;
-    width: 120px;
+    width: 210px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    padding-top: 2px;
+    padding-top: 4px;
+    margin-bottom: 28px;
+
 
     
     
@@ -211,12 +204,10 @@ button:hover{
 }
 
 .thanks-description {
-    font-size: 9px;
+    font-size: 14px;
     font-family: 'Overpass';
     font-weight: 400;
-    line-height: 14px;
+    line-height: 25px;
     color: #818791;
-    margin-bottom: 17px;
     text-align: center;
-
 }
